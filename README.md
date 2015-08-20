@@ -12,6 +12,7 @@ Adds custom styles for Chrome's devtools
 
 ## Current implementation
 ![Screenshot of example](/screenshot.png?raw=true "Looking swaggy!")
+
 Currently, all it does is make unmatched selectors half the font-size of matched ones and limited to a single line (overflowing to an ellipsis). It also give a fuchsia text-shadow to the matched selector for easy spotting.
 
 ## Todo
