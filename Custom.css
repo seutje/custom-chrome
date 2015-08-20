@@ -1,0 +1,16 @@
+.styles-section .simple-selector {
+  text-overflow: ellipses;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: .5em;
+}
+
+.styles-section .simple-selector.selector-matches {
+  -webkit-line-clamp: initial;
+  display: inline-block;
+  overflow: initial;
+  -webkit-box-orient: initial;
+  font-size: initial;
+  text-shadow: 1px 1px 1px fuchsia;
+}
