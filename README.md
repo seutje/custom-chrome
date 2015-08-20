@@ -10,10 +10,11 @@ Adds custom styles for Chrome's devtools
 - In the experiments tab, check "Allow custom UI themes"
 - Close an reopen devtools.
 
+![Screenshot of example](/screenshot.png?raw=true "Looking swaggy!")
+
 ## Current implementation
 Currently, all it does is make unmatched selectors half the font-size of matched ones and limited to a single line (overflowing to an ellipsis). It also give a fuchsia text-shadow to the matched selector for easy spotting.
 
 ## Todo
-- Add screenshots
 - Look into making unmatched selectors expandible
 
