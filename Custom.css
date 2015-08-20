@@ -1,9 +1,14 @@
+.styles-section .selector {
+  font-size: .5em;
+}
+
 .styles-section .simple-selector {
-  text-overflow: ellipses;
-  display: -webkit-box;
+  text-overflow: ellipsis;
+  display: -webkit-inline-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
-  font-size: .5em;
+  overflow: hidden;
+  max-width: 95%;
 }
 
 .styles-section .simple-selector.selector-matches {
